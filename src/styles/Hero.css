@@ -1,0 +1,29 @@
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 26px;
+  z-index: 90;
+}
+
+.photo-grid {
+  max-width: 395px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-left: 30px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.description {
+  width: 400px;
+  font-size: 20px;
+  margin-top: 10px;
+}
