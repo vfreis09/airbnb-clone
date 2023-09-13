@@ -8,7 +8,13 @@ function App() {
   return (
     <>
       <Nav />
-      <Card />
+      <Card
+        img="./katie-zaferes.png"
+        starImg="./star.png"
+        cardStats="5.0 (6) &#183; USA"
+        cardTitle="Life lessons with Katie Zaferes"
+        cardCost="From $136 / person"
+      />
     </>
   );
 }

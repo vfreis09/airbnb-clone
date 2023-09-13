@@ -1,18 +1,16 @@
 import "../styles/Card.css";
 
-function Card() {
+function Card(props) {
   return (
     <section className="card-section">
-      <img src="./katie-zaferes.png" className="card-image"></img>
+      <img src={props.img} className="card-image"></img>
       <div className="description">
         <div className="title-section">
-          <img src="./star.png" className="card-star"></img>
-          <p>5.0 (6) &#183; USA</p>
+          <img src={props.starImg} className="card-star"></img>
+          <p>{props.cardStats}</p>
         </div>
-        <p>Life lessons with Katie Zaferes</p>
-        <p>
-          <strong>From $136</strong> / person
-        </p>
+        <p>{props.cardTitle}</p>
+        <p>{props.cardCost} </p>
       </div>
     </section>
   );
